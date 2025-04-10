@@ -1,0 +1,19 @@
+{
+  "name": "backend-demo",
+  "module": "index.ts",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "dev": "bun run --watch index.ts"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  },
+  "dependencies": {
+    "@fastify/busboy": "^3.1.1",
+    "lowdb": "^7.0.1"
+  }
+}
