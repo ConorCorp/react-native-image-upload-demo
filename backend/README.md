@@ -23,7 +23,7 @@ This probably isn't the most idea product server, though it is capable. If you d
 
 In the bucket's permissions page:
 1. Set `Block all public access` to `off`.
-2. Update the `Bucket Policy` to allow viewing all objects:
+2. Update the `Bucket Policy` to allow viewing all objects, insert your bucket name instead of `modergator-demo-apps`.
 ```
 {
     "Version": "2012-10-17",
