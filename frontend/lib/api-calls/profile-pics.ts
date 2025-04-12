@@ -13,10 +13,6 @@ const headersWithAuth: RequestInit = {
 
 export const getProfilePics = async (): Promise<ProfilePics> => {
   const response = await fetch(backendUrl, headersWithAuth);
-
-  // Add a 2 second pause for demo purposes
-  // await new Promise((resolve) => setTimeout(resolve, 2000));
-
   const responseJson = await response.json();
   return GetProfilePicsSchema.parse(responseJson);
 };
